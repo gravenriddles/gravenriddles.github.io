@@ -1,0 +1,32 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://gravenriddles.com
+title: Graven Riddles
+email: gravenriddles@gmail.com
+author: Graven Riddles
+description: > # "Write an awesome description for your new site here. 
+  A newly created solo indie game studio that aim to create video games that matter! I document my process, struggles, successes and failures and share it with you. Be part of the community, be part of the industry!.
+copyright: 'Copyright &copy; 2019 Graven Riddles. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/gravenriddles
+  - title: github
+    url: https://github.com/gravenriddles
+  - title: linkedin
+    url: 
