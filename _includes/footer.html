@@ -1,12 +1,40 @@
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div style="text-align: center;" >
-               
-                <p class="copyright text-muted small">{{ site.copyright }}</p>
-            </div>
-            
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="footer-top">
+          <h2 class="logo-title">
+            <a href="{{site.baseurl}}/" class="logo-text">Graven Riddles</a>
+          </h2>
+          <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
         </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>Graven Riddles &copy; {{site.time | date: '%Y'}}. All Rights Reserved.</p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-reset">
+              {% if site.youtube %}
+              <li><a href="{{ site.youtube }}">YouTube</a></li>
+              {% else %} {% endif %}
+              {% if site.twitch %}
+              <li><a href="{{ site.twitch }}">Twitch</a></li>
+              {% else %} {% endif %}
+              {% if site.facebook %}
+              <li><a href="{{ site.facebook }}">Facebook</a></li>
+              {% else %} {% endif %}
+
+              {% if site.twitter %}
+              <li><a href="{{ site.twitter }}">Twitter</a></li>
+              {% else %} {% endif %}
+
+              {% if site.instagram %}
+              <li><a href="{{ site.instagram }}">Instagram</a></li>
+              {% else %} {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </div>
+</footer> <!-- /.footer -->
